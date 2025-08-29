@@ -85,7 +85,7 @@ function pickRandomPerk() {
             if (url_vars.has("bg-url")) {
                 document.getElementById(id).style.backgroundImage = `url("${url_vars.get("bg-url")}")`;
             } else {
-                document.getElementById(id).style.backgroundImage = `url("/css/img/perk_purple.png")`;
+                document.getElementById(id).style.backgroundImage = `url("perkroulette/css/img/perk_purple.png")`;
             }
             i++;
 
@@ -94,7 +94,7 @@ function pickRandomPerk() {
         for (var i = 0; i < 4; i++) {
             document.getElementById("pn" + i).innerHTML = perk_json.perks[sel_perks[i]].perk_name;
             document.getElementById("pc" + i).innerHTML = perk_json.perks[sel_perks[i]].character;
-            document.getElementById("pi" + i).style.backgroundImage = "url(/css/img/" + active_type + "/iconperks-" + perk_json.perks[sel_perks[i]].perk_name.toString().toLowerCase().normalize("NFD").replace(/ /gi, '').replace(/'/gi, '').replace(/-/gi, '').replace(/&/gi, 'and').replace(/!/gi, '').replace(/:/gi, '').replace(/\p{Diacritic}/gu, '') + ".png)";
+            document.getElementById("pi" + i).style.backgroundImage = "url(perkroulette/css/img/" + active_type + "/iconperks-" + perk_json.perks[sel_perks[i]].perk_name.toString().toLowerCase().normalize("NFD").replace(/ /gi, '').replace(/'/gi, '').replace(/-/gi, '').replace(/&/gi, 'and').replace(/!/gi, '').replace(/:/gi, '').replace(/\p{Diacritic}/gu, '') + ".png)";
 
             document.getElementById("pn" + i).classList.add('transparent');
             document.getElementById("pc" + i).classList.add('transparent');
