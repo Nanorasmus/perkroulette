@@ -37,14 +37,14 @@ function customColors() {
 function loadPerks() {
     if (url_vars.get("type") == "surv") {
         var request = new XMLHttpRequest();
-        request.open("GET", "/perkroulette/json/survivor-perks.json", false);
+        request.open("GET", "/../../json/survivor-perks.json", false);
         request.send(null);
         perk_json = JSON.parse(request.responseText);
         active_type = "surv";
 
     } else if (url_vars.get("type") == "kill") {
         var request = new XMLHttpRequest();
-        request.open("GET", "/perkroulette/json/killer-perks.json", false);
+        request.open("GET", "/../../json/killer-perks.json", false);
         request.send(null);
         perk_json = JSON.parse(request.responseText);
         active_type = "kill";
