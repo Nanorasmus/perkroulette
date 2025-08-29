@@ -1,7 +1,7 @@
 var perk_json;
 
 function applyChanges() {
-    var link = "/streaming-mode/embed/";
+    var link = "/perkroulette/streaming-mode/embed/";
 
     if (document.querySelector("input#surv").checked) {
         link += "?type=surv";
@@ -37,7 +37,7 @@ function applyChanges() {
         link += "&bg-url=" + document.querySelector("input[name=bg-url]").value;
     }
 
-    document.querySelector("#link-input").value = "https://nanorasmus.github.io/perkroulette" + link;
+    document.querySelector("#link-input").value = "https://nanorasmus.github.io" + link;
     document.querySelector("#embed-preview").src = link;
     document.getElementById("link-copy-btn").value = "Copy URL";
 }
