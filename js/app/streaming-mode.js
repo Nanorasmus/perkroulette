@@ -49,12 +49,12 @@ function loadPerks() {
 
     if (document.querySelector("input#surv").checked) {
         var request = new XMLHttpRequest();
-        request.open("GET", "/json/survivor-perks.json", false);
+        request.open("GET", "/perkroulette/json/survivor-perks.json", false);
         request.send(null);
         perk_json = JSON.parse(request.responseText);
     } else if (document.querySelector("input#kill").checked) {
         var request = new XMLHttpRequest();
-        request.open("GET", "/json/killer-perks.json", false);
+        request.open("GET", "/perkroulette/json/killer-perks.json", false);
         request.send(null);
         perk_json = JSON.parse(request.responseText);
     }
