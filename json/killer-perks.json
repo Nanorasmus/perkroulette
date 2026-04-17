@@ -531,6 +531,30 @@
 		{
 			"perk_name": "Phantom Fear",
 			"character": "The Animatronic Teachable Perk"
+		},
+		{
+			"perk_name": "Hex: The Overture of Doom",
+			"character": "The Krasue Teachable Perk"
+		},
+		{
+			"perk_name": "Ravenous",
+			"character": "The Krasue Teachable Perk"
+		},
+		{
+			"perk_name": "Wandering Eye",
+			"character": "The Krasue Teachable Perk"
+		},
+		{
+			"perk_name": "Hex: Hive Mind",
+			"character": "The First Teachable Perk"
+		},
+		{
+			"perk_name": "Secret Project",
+			"character": "The First Teachable Perk"
+		},
+		{
+			"perk_name": "Turn Back The Clock",
+			"character": "The First Teachable Perk"
 		}
 	]
 }
