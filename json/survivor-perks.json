@@ -608,6 +608,54 @@
 		{
 			"perk_name": "Teamwork: Throw Down",
 			"character": "Michonne Grimes Teachable Perk"
+		},
+		{
+			"perk_name": "Ghost Notes",
+			"character": "Vee Boonyasak Teachable Perk"
+		},
+		{
+			"perk_name": "One-Two-Three-Four!",
+			"character": "Vee Boonyasak Teachable Perk"
+		},
+		{
+			"perk_name": "Road Life",
+			"character": "Vee Boonyasak Teachable Perk"
+		},
+		{
+			"perk_name": "Bada Bada Boom",
+			"character": "Dustin Henderson Teachable Perk"
+		},
+		{
+			"perk_name": "Change of Plan",
+			"character": "Dustin Henderson Teachable Perk"
+		},
+		{
+			"perk_name": "Teamwork: Full Circuit",
+			"character": "Dustin Henderson Teachable Perk"
+		},
+		{
+			"perk_name": "Extrasensory Perception",
+			"character": "Eleven Teachable Perk"
+		},
+		{
+			"perk_name": "Teamwork: Soft-Spoken",
+			"character": "Eleven Teachable Perk"
+		},
+		{
+			"perk_name": "We See You",
+			"character": "Eleven Teachable Perk"
+		},
+		{
+			"perk_name": "A Place For Us",
+			"character": "Kwon Tae-young Teachable Perk"
+		},
+		{
+			"perk_name": "Five Moves Ahead",
+			"character": "Kwon Tae-young Teachable Perk"
+		},
+		{
+			"perk_name": "Flow State",
+			"character": "Kwon Tae-young Teachable Perk"
 		}
 	]
 }
